@@ -11,12 +11,31 @@ body{
 .section1{
 
     align-items: center;
+    /* display: flex;
+    flex-direction: column; */
 
+}
+.hero{
+    display: flex;
+    flex-direction: column;
 }
 h2{
     font-size: 30px;
     display: flex;
     align-items: center;
+}
+p{
+    margin-top:20px ;
+    font-size: 20px;
+}
+.i-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
 }
 .input{
     display: flex;
@@ -34,12 +53,39 @@ h2{
    border-radius: 10px;
    gap: 20px;
    background-color: rgba(245, 247, 250, 0.938);
-   color: aquamarine;
+   color: rgb(10, 10, 10);
    border-color: aliceblue;
 }
-.btn{
+.input input[type="text"]:hover{
+    color: aqua;
+    background-color: rgb(92, 90, 90);
+}
+.button{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding: 10px;
+    
+    
+}
+
+.btn{
+    cursor: pointer;
+    width: 20vw;
+    height: 12vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(92, 90, 90);
+    background-color:aqua ;
+    border-radius: 19px;
+}
+.btn:hover{
+    background-color: rgb(92, 90, 90);
+    color: aqua;
+}
+label{
+    color: aqua;
 }
        

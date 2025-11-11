@@ -8,17 +8,28 @@
 </head>
 <body>
     <section class="section1">
+        <div class="hero">
            <h2>Welcome to the meme generator</h2>
         <p>All you have to do is copy the image link of your meme and we will generate it for you 😉</p>
         <p>This is gonna be fun 😁 let's put laughter to others!</p>
-        <div>
-        <div class="input">
-            <input type="url" placeholder="https://difantasy.wordpress.com/wp-content/uploads/2013/04/b5c.png">
-            <input type="text" placeholder="A custom meme...">
-            <input type="text" placeholder="is the best kind">
         </div>
-        <div class="btn">
+        <div i-btn>
+        <div class="input">
+            <label for="image-link">image-link:
+                 <input type="url" id="image-link" placeholder="https://difantasy.wordpress.com/wp-content/uploads/2013/04/b5c.png">
+            </label>
+           <label for="First Top text">First Top text
+                  <input type="text" id="First Top text" placeholder="A custom meme...">
+           </label>
+           <label for="Below text">Below text
+                <input type="text" id="Below text" placeholder="is the best kind">
+            </label>
+            
+            
+        </div>
+        <div class="button">
             <button class="btn">generate me</button>
+        </div>
         </div>
     </section>
 </body>
