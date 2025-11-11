@@ -26,10 +26,12 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aqua;
 }
 p{
     margin-top:20px ;
     font-size: 20px;
+    color: aqua;
 }
 form{
     display: flex;
