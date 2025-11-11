@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+
+}
+body{
+    color: aquamarine;
+    background-color: rgb(92, 90, 90);
+}
+.section1{
+
+    align-items: center;
+
+}
+h2{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.input input[type="text"],
+.input input[type="url"]
+{
+   width: 30vw;
+   height: 5vh;
+   border-radius: 10px;
+   gap: 20px;
+   background-color: rgba(245, 247, 250, 0.938);
+   color: aquamarine;
+   border-color: aliceblue;
+}
+       
