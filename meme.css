@@ -37,4 +37,9 @@ h2{
    color: aquamarine;
    border-color: aliceblue;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
        
