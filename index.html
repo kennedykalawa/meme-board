@@ -3,35 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meme-board</title>
+    <title>Meme Board</title>
     <link rel="stylesheet" href="./meme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="section1">
         <div class="hero">
            <h2>Welcome to the meme generator</h2>
-        <p>All you have to do is copy the image link of your meme and we will generate it for you 😉</p>
-        <p>This is gonna be fun 😁 let's put laughter to others!</p>
+           <p>Copy the image link of your meme and we will generate it for you 😉</p>
+           <p>This is gonna be fun 😁 let's put laughter to others!</p>
         </div>
-        <form action="">
-        <div class="input">
-            <label for="image-link">image-link:
-                 <input type="url" id="image-link" placeholder="https://difantasy.wordpress.com/wp-content/uploads/2013/04/b5c.png">
-            </label>
-           <label for="First Top text">First Top text
-                  <input type="text" id="First Top text" placeholder="A custom meme...">
-           </label>
-           <label for="Below text">Below text
+        <form id="meme-form">
+            <div class="input-group">
+                <label for="image-link">Image URL</label>
+                <input type="url" id="image-link" placeholder="https://example.com/meme.png" required>
+                
+                <label for="First Top text">Top Text</label>
+                <input type="text" id="First Top text" placeholder="A custom meme...">
+                
+                <label for="Below text">Bottom Text</label>
                 <input type="text" id="Below text" placeholder="is the best kind">
-            </label>
-            
-            
-        </div>
-        <div class="button">
-            <button class="btn">generate me</button>
-        </div>
+            </div>
+            <div class="button-container">
+                <button type="submit" class="btn">Generate Me</button>
+            </div>
         </form>
     </section>
+    <section id="meme-output"></section>
     <script src="./meme.js"></script>
 </body>
 </html>
